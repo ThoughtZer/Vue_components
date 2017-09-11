@@ -41,8 +41,8 @@
         } else {
           let middle = this.current - Math.floor(this.showItem / 2);//从哪里开始
           let i = this.showItem;
-          if (middle > (this.allpage - this.showItem / 2)) {
-            middle = (this.allpage - this.showItem /2) + 1;
+          if (middle > (this.allpage - this.showItem )) {
+            middle = (this.allpage - this.showItem ) + 1;
           }
           while (i--) {
             pag.push(middle++);
