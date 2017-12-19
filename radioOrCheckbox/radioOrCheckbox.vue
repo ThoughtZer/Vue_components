@@ -121,12 +121,13 @@
           opacity: 0;
           outline: 0;
           position: absolute;
-          z-index: -1;
           top: 0;
           left: 0;
           right: 0;
           bottom: 0;
           margin: 0;
+          width 100%
+          height 100%
         .el_checkbox__inner
           display: inline-block;
           position: relative;
@@ -159,9 +160,9 @@
           outline: 0;
           position: absolute;
           margin: 0;
-          width: 0;
-          height: 0;
-          left: -999px;
+          width 100%
+          height 100%
+          left: 0
       .el_label
         font-size: 14px;
         padding-left: 5px;

@@ -135,9 +135,9 @@
           outline: 0
           position: absolute
           margin: 0
-          width: 0
-          height: 0
-          left: -999px
+          left: 0
+          width 100%
+          height 100%
       .el_label
         box-sizing border-box
         font-size .15rem
